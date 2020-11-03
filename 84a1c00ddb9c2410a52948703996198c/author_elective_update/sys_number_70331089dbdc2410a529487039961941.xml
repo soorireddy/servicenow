@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="DELETE">
+        <category display_value="" name="x_545192_badgeoffi_userbadgerequest">x_545192_badgeoffi_userbadgerequest</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>USERB</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-03 17:34:15</sys_created_on>
+        <sys_id>70331089dbdc2410a529487039961941</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>USERB</sys_name>
+        <sys_package display_value="BadgeOfficer" source="x_545192_badgeoffi">84a1c00ddb9c2410a52948703996198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BadgeOfficer">84a1c00ddb9c2410a52948703996198c</sys_scope>
+        <sys_update_name>sys_number_70331089dbdc2410a529487039961941</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-03 17:34:15</sys_updated_on>
+    </sys_number>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BadgeOfficer">84a1c00ddb9c2410a52948703996198c</application>
+        <file_path/>
+        <instance_id>be6e6ee5dbd7938052e3f70fbf961982</instance_id>
+        <instance_name>dev64819</instance_name>
+        <name>sys_number_70331089dbdc2410a529487039961941</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="x_545192_badgeoffi_userbadgerequest">x_545192_badgeoffi_userbadgerequest</category><maximum_digits>7</maximum_digits><number>1000</number><prefix>USERB</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-11-03 17:34:15</sys_created_on><sys_id>70331089dbdc2410a529487039961941</sys_id><sys_mod_count>0</sys_mod_count><sys_name>USERB</sys_name><sys_package display_value="BadgeOfficer" source="x_545192_badgeoffi">84a1c00ddb9c2410a52948703996198c</sys_package><sys_policy/><sys_scope display_value="BadgeOfficer">84a1c00ddb9c2410a52948703996198c</sys_scope><sys_update_name>sys_number_70331089dbdc2410a529487039961941</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-11-03 17:34:15</sys_updated_on></sys_number></record_update>]]></payload>
+        <payload_hash>116354439</payload_hash>
+        <record_name>USERB</record_name>
+        <reverted_from/>
+        <source>67b70041dbdc2410a5294870399619f7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-03 17:34:16</sys_created_on>
+        <sys_id>b0331089dbdc2410a529487039961947</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1758f2c72030000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-03 17:34:16</sys_updated_on>
+        <type>Number</type>
+        <update_guid>f83310899fdc2410535b3160e9349046</update_guid>
+        <update_guid_history>f83310899fdc2410535b3160e9349046:116354439</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-03 18:05:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_number">sys_number</sys_db_object>
+        <sys_id>99f6edf067284ff8a7d60cd722dd1c84</sys_id>
+        <sys_metadata>70331089dbdc2410a529487039961941</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>USERB</sys_name>
+        <sys_package display_value="BadgeOfficer" source="x_545192_badgeoffi">84a1c00ddb9c2410a52948703996198c</sys_package>
+        <sys_parent display_value="">7a429049dbdc2410a5294870399619dc</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="BadgeOfficer">84a1c00ddb9c2410a52948703996198c</sys_scope>
+        <sys_scope_delete display_value="">05c42e24070c45278c8fe39e3aa15ca9</sys_scope_delete>
+        <sys_update_name>sys_number_70331089dbdc2410a529487039961941</sys_update_name>
+        <sys_update_version display_value="sys_number_70331089dbdc2410a529487039961941">b0331089dbdc2410a529487039961947</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-03 18:05:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

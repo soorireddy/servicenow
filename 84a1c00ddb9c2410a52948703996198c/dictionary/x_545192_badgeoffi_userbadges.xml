@@ -1,14 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="UserBadges" max_length="40" name="x_545192_badgeoffi_userbadges" type="collection">
         <element attributes="edge_encryption_enabled=true" label="BadgeId" max_length="40" name="badgeid" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="BadgeStatus" max_length="40" name="badgestatus" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="BadgeType" max_length="40" name="badgetype" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="BadgeStatus" max_length="40" name="badgestatus" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Active" value="active"/>
+                <element inactive_on_update="false" label="Inactive" value="inactive"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="BadgeType" max_length="40" name="badgetype" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Permanent" value="perm"/>
+                <element inactive_on_update="false" label="Temporary" value="temp"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" label="BadgeValidFrom" max_length="40" name="badgevalidfrom" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" label="BadgeValidTo" max_length="40" name="badgevalidto" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element display="true" label="testrel" max_length="20" name="testrel" type="string"/>
         <element attributes="encode_utf8=false" label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
         <index name="index">
             <element name="user"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
         </index>
     </element>
 </database>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_545192_badgeoffi_badgerequesttask" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="BadgeRequestTask - Default view" name="x_545192_badgeoffi_badgerequesttask" related_list="NULL" sys_domain="global" view="Default view">8f591c4ddbdc2410a52948703996193b</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>x_545192_badgeoffi_userbadgerequest.parent</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-03 18:01:10</sys_created_on>
+            <sys_id>8b591c4ddbdc2410a52948703996193c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-03 18:01:10</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="BadgeRequestTask - Default view" name="x_545192_badgeoffi_badgerequesttask" related_list="NULL" sys_domain="global" view="Default view">8f591c4ddbdc2410a52948703996193b</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>x_545192_badgeoffi_userbadgerequest.universal_request</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-03 18:01:10</sys_created_on>
+            <sys_id>8b59548ddbdc2410a5294870399619c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-03 18:01:10</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="BadgeRequestTask - Default view" name="x_545192_badgeoffi_badgerequesttask" related_list="NULL" sys_domain="global" view="Default view">8f591c4ddbdc2410a52948703996193b</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>REL:11a81c4ddbdc2410a529487039961932</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-03 18:01:10</sys_created_on>
+            <sys_id>8f59548ddbdc2410a5294870399619c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-03 18:01:10</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>BadgeRequestTask - Default view</calculated_name>
+            <filter/>
+            <name>x_545192_badgeoffi_badgerequesttask</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-03 18:01:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8f591c4ddbdc2410a52948703996193b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>BadgeRequestTask - Default view</sys_name>
+            <sys_package display_value="BadgeOfficer" source="x_545192_badgeoffi">84a1c00ddb9c2410a52948703996198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="BadgeOfficer">84a1c00ddb9c2410a52948703996198c</sys_scope>
+            <sys_update_name>sys_ui_related_x_545192_badgeoffi_badgerequesttask_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-03 18:01:10</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>
