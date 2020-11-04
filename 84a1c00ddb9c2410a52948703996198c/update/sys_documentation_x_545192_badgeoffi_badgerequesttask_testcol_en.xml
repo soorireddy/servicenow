@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="u_glide_badgelist" label="BadgeList" language="en" table="x_545192_badgeoffi_badgerequesttask">
+    <sys_documentation element="testcol" label="Testcol" language="en" table="x_545192_badgeoffi_badgerequesttask">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>u_glide_badgelist</element>
+            <element>testcol</element>
             <help/>
             <hint/>
-            <label>BadgeList</label>
+            <label>Testcol</label>
             <language>en</language>
             <name>x_545192_badgeoffi_badgerequesttask</name>
-            <plural>BadgeLists</plural>
+            <plural>Testcols</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-11-03 17:25:33</sys_created_on>
-            <sys_id>c5311809dbdc2410a5294870399619f2</sys_id>
+            <sys_created_on>2020-11-04 12:28:18</sys_created_on>
+            <sys_id>7cc6dc99db986410a5294870399619e0</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>BadgeList</sys_name>
+            <sys_name>Testcol</sys_name>
             <sys_package display_value="BadgeOfficer" source="x_545192_badgeoffi">84a1c00ddb9c2410a52948703996198c</sys_package>
             <sys_policy/>
             <sys_scope display_value="BadgeOfficer">84a1c00ddb9c2410a52948703996198c</sys_scope>
-            <sys_update_name>sys_documentation_x_545192_badgeoffi_badgerequesttask_u_glide_badgelist_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_545192_badgeoffi_badgerequesttask_testcol_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-11-03 17:25:33</sys_updated_on>
+            <sys_updated_on>2020-11-04 12:28:18</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

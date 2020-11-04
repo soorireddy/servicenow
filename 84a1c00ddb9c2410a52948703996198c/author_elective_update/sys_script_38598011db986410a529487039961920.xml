@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>true</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>true</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_545192_badgeoffi_badgerequesttask</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>ExtractImageDatatoBase64String</name>
+        <order>1</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	gs.info('BusinessRule is called get Image data in base64');
+	gs.info(current.sys_id);
+	current.testcol ='somestring';
+
+	gs.info('updated testcol');
+	var attachment = new GlideSysAttachment();
+    var agr = attachment.getAttachments('x_545192_badgeoffi_badgerequesttask', current.sys_id);
+	
+	gs.info(agr);
+	while(agr.next())
+		gs.info('agr');
+		gs.info(agr.getValue('file_name'));
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-04 11:39:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>38598011db986410a529487039961920</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>ExtractImageDatatoBase64String</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="BadgeOfficer" source="x_545192_badgeoffi">84a1c00ddb9c2410a52948703996198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BadgeOfficer">84a1c00ddb9c2410a52948703996198c</sys_scope>
+        <sys_update_name>sys_script_38598011db986410a529487039961920</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-04 12:29:32</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=38598011db986410a529487039961920"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BadgeOfficer">84a1c00ddb9c2410a52948703996198c</application>
+        <file_path/>
+        <instance_id>be6e6ee5dbd7938052e3f70fbf961982</instance_id>
+        <instance_name>dev64819</instance_name>
+        <name>sys_script_38598011db986410a529487039961920</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;true&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;true&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_545192_badgeoffi_badgerequesttask&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;ExtractImageDatatoBase64String&lt;/name&gt;&lt;order&gt;1&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+	gs.info('BusinessRule is called get Image data in base64');
+	gs.info(current.sys_id);
+	current.testcol ='somestring';
+
+	gs.info('updated testcol');
+	var attachment = new GlideSysAttachment();
+    var agr = attachment.getAttachments('x_545192_badgeoffi_badgerequesttask', current.sys_id);
+	
+	gs.info(agr);
+	while(agr.next())
+		gs.info('agr');
+		gs.info(agr.getValue('file_name'));
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-11-04 11:39:17&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;38598011db986410a529487039961920&lt;/sys_id&gt;&lt;sys_mod_count&gt;14&lt;/sys_mod_count&gt;&lt;sys_name&gt;ExtractImageDatatoBase64String&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="BadgeOfficer" source="x_545192_badgeoffi"&gt;84a1c00ddb9c2410a52948703996198c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="BadgeOfficer"&gt;84a1c00ddb9c2410a52948703996198c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_38598011db986410a529487039961920&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-11-04 12:29:32&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=38598011db986410a529487039961920"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1430573758</payload_hash>
+        <record_name>ExtractImageDatatoBase64String</record_name>
+        <reverted_from/>
+        <source>67b70041dbdc2410a5294870399619f7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-04 12:29:32</sys_created_on>
+        <sys_id>ae07dc99db986410a5294870399619f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>175933bd04f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-04 12:29:32</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>6607dc99e7986410d09fa4fefddc67f1</update_guid>
+        <update_guid_history>6607dc99e7986410d09fa4fefddc67f1:-1430573758,37a45059b99864104fb88d96c29a7294:-1111598747,61f2d019ed9864108592e6666031a4b2:16537989,b25254d5ce986410fb3b034b3399f58a:-1046419161,fdd194d5c39864100705594882cdadc8:-820263518,0a7150d58798641063f30a7e1489ce88:1383476350,e551dc952c98641007a75c96a5c235bb:-1967417350,e2f058956e986410f52ee92cc2f69dd3:-688204676,3cd054953c986410f6d9d53a064ff9a9:-1808829714,2860dc55ea9864101e4b2a9f05af20ed:2073306894,39af0855a6986410fbd4c967c6045c76:591259883,85ec8c9122986410cf263be2aeac8eef:-1374359295,da6c009123986410054e71d323e1fc44:1284018122,2bcbccdd2e586410f99815913712b3fb:81676170,768b4851e19864109cd13c1e65c6c4a5:-27677072</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-04 13:05:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>8670945dde1040e89c89e6dfdceba390</sys_id>
+        <sys_metadata>38598011db986410a529487039961920</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ExtractImageDatatoBase64String</sys_name>
+        <sys_package display_value="BadgeOfficer" source="x_545192_badgeoffi">84a1c00ddb9c2410a52948703996198c</sys_package>
+        <sys_parent display_value="BadgeRequestTask">5804808ddb9c2410a529487039961991</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="BadgeOfficer">84a1c00ddb9c2410a52948703996198c</sys_scope>
+        <sys_scope_delete display_value="">05c42e24070c45278c8fe39e3aa15ca9</sys_scope_delete>
+        <sys_update_name>sys_script_38598011db986410a529487039961920</sys_update_name>
+        <sys_update_version display_value="sys_script_38598011db986410a529487039961920">ae07dc99db986410a5294870399619f1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-04 13:05:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

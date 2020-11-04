@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>true</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_545192_badgeoffi_userbadges</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>GetBadgeConfigInfoSetToFormForPrint</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+    gs.info('loading badge configuration');
+    try {
+        var r = new sn_ws.RESTMessageV2('x_545192_badgeoffi.Get Badge Configuration', 'Default GET');
+        var response = r.executeAsync();
+        response.waitForResponse(30);
+        var responseBody = response.getBody();
+        var httpStatus = response.getStatusCode();
+        gs.info('response' + httpStatus);
+        var responseObj = JSON.parse(responseBody);
+        if (null != responseObj && null != responseObj.result) {
+            gs.info('setting badge configuration to fields');
+            current.logo = responseObj.result[0].logo;
+            current.userimage = responseObj.result[0].imagestr;
+            current.template = responseObj.result[0].template;
+			current.companyname = responseObj.result[0].companyname;
+        }
+    } catch (ex) {
+        var message = ex.message;
+        gs.error('message' + message);
+    }
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-04 13:26:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7273e051dbd86410a529487039961935</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>GetBadgeConfigInfoSetToFormForPrint</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="BadgeOfficer" source="x_545192_badgeoffi">84a1c00ddb9c2410a52948703996198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BadgeOfficer">84a1c00ddb9c2410a52948703996198c</sys_scope>
+        <sys_update_name>sys_script_7273e051dbd86410a529487039961935</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-04 15:04:58</sys_updated_on>
+        <template/>
+        <when>before_display</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=7273e051dbd86410a529487039961935"/>
+</record_update>

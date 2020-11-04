@@ -28,6 +28,20 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2020-11-04 07:17:58</sys_updated_on>
         </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-11-04 14:34:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2ea338dddbd86410a529487039961983</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_545192_badgeoffi_userbadges" name="x_545192_badgeoffi_userbadges" sys_domain="global" view="Default view">72bf4f45dbd46410a52948703996191a</sys_ui_form>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_545192_badgeoffi_userbadges" sys_domain="global" view="Default view">5aa338dddbd86410a52948703996197f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-11-04 14:34:35</sys_updated_on>
+        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_545192_badgeoffi_userbadges</name>
             <roles/>
