@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="BadgeConfiguration" max_length="40" name="x_545192_badgeoffi_badgeconfiguration" type="collection">
+        <element label="CompanyName" mandatory="true" max_length="40" name="companyname" type="string"/>
+        <element label="logo" mandatory="true" max_length="300" name="logo" type="string"/>
+        <element display="true" label="template" mandatory="true" max_length="2000" name="template" type="html"/>
+    </element>
+</database>
