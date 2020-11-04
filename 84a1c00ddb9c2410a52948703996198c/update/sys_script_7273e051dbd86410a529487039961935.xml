@@ -30,7 +30,9 @@
         <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
     gs.info('loading badge configuration');
     try {
-        var r = new sn_ws.RESTMessageV2('x_545192_badgeoffi.Get Badge Configuration', 'Default GET');
+        gs.info('user photo sysid  :: ' + current.user.photo);
+		current.cardholderimage=current.user.photo;
+		var r = new sn_ws.RESTMessageV2('x_545192_badgeoffi.Get Badge Configuration', 'Default GET');
         var response = r.executeAsync();
         response.waitForResponse(30);
         var responseBody = response.getBody();
@@ -55,7 +57,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7273e051dbd86410a529487039961935</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>GetBadgeConfigInfoSetToFormForPrint</sys_name>
         <sys_overrides/>
         <sys_package display_value="BadgeOfficer" source="x_545192_badgeoffi">84a1c00ddb9c2410a52948703996198c</sys_package>
@@ -63,7 +65,7 @@
         <sys_scope display_value="BadgeOfficer">84a1c00ddb9c2410a52948703996198c</sys_scope>
         <sys_update_name>sys_script_7273e051dbd86410a529487039961935</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-04 15:04:58</sys_updated_on>
+        <sys_updated_on>2020-11-04 19:49:26</sys_updated_on>
         <template/>
         <when>before_display</when>
     </sys_script>

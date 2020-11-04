@@ -15,7 +15,8 @@
         </element>
         <element attributes="edge_encryption_enabled=true" label="BadgeValidFrom" mandatory="true" max_length="40" name="badgevalidfrom" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" label="BadgeValidTo" mandatory="true" max_length="40" name="badgevalidto" type="glide_date_time"/>
-        <element display="true" label="CompanyName" max_length="300" name="companyname" type="string"/>
+        <element display="true" label="CardHolderImage" max_length="40" name="cardholderimage" type="user_image"/>
+        <element label="CompanyName" max_length="300" name="companyname" type="string"/>
         <element label="logo" max_length="200" name="logo" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element choice="3" label="Provision" max_length="20" name="provision" type="string">
