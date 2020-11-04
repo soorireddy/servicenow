@@ -2,7 +2,7 @@
     <element extends="task" label="BadgeRequestTask" max_length="40" name="x_545192_badgeoffi_badgerequesttask" type="collection">
         <element label="Badges" max_length="32" name="badges" reference="x_545192_badgeoffi_userbadges" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="RequestDate" max_length="40" name="requestdate" type="glide_date_time"/>
-        <element attributes="encode_utf8=false" label="RequestedBy" max_length="32" name="requestedby" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="RequestedBy" max_length="32" name="requestedby" read_only="true" reference="sys_user" type="reference"/>
         <element attributes="encode_utf8=false" label="RequestFor" max_length="32" name="requestfor" reference="sys_user" type="reference"/>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="badges" max_length="1024" name="userbadgeslist" reference="x_545192_badgeoffi_userbadges" type="glide_list"/>
         <element label="UserImage" max_length="40" name="userimage" type="user_image"/>

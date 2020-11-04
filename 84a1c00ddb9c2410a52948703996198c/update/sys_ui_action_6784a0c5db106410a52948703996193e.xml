@@ -34,10 +34,10 @@
         gm.setTitle('Badge Preview');  			      	
         var title = gm.getPreference('title');
         gm.setWidth(520);
-        gm.renderWithContent('<!DOCTYPE html><html><head><style>.flex-container{display: flex; background-color: DodgerBlue; max-width: 520px; flex-flow: row wrap;}.flex-container > div{background-color: #f1f1f1; width: 240px; height: 350px; margin: 10px; text-align: center; line-height: 10px; font-size: 20px;}</style></head><body><div class="flex-container"><div><h3>Company</h3><p>Name</p><img src="https://html-online.com/img/01-interactive-connection.png" alt="Avatar" style="width:200px"><p>'+g_form.getValue('number')+'</p></div><div><h5>If found please contact</h5><p>Street No#123</p><p>Hyderabad</p><p>Telangana</p><p>India</p><p>040-12345678</p><br><br><br><h6>Blood group</h6><p style="color:red">ABC+</p></div><div style="height:15px;background-color: DodgerBlue ; color:white;">Front</div><div style="height:15px;background-color: DodgerBlue ; color:white;">Back</div></div></body></html>'); 
+        gm.renderWithContent('<!DOCTYPE html><html><head><style>.flex-container{display: flex; background-color: DodgerBlue; max-width: 520px; flex-flow: row wrap;}.flex-container > div{background-color: #f1f1f1; width: 240px; height: 350px; margin: 10px; text-align: center; line-height: 10px; font-size: 20px;}</style></head><body><div class="flex-container"><div><h3>Company</h3><p>Name</p><img src="https://html-online.com/img/01-interactive-connection.png" alt="Avatar" style="width:200px"><p>'+g_form.getValue('badgeid')+'</p></div><div><h5>If found please contact</h5><p>Street No#123</p><p>Hyderabad</p><p>Telangana</p><p>India</p><p>040-12345678</p><br><br><br><h6>Blood group</h6><p style="color:red">ABC+</p></div><div style="height:15px;background-color: DodgerBlue ; color:white;">Front</div><div style="height:15px;background-color: DodgerBlue ; color:white;">Back</div></div></body></html>'); 
 
 }]]></script>
-        <show_insert>false</show_insert>
+        <show_insert>true</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
         <show_update>true</show_update>
@@ -47,7 +47,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6784a0c5db106410a52948703996193e</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Preview</sys_name>
         <sys_overrides/>
         <sys_package display_value="BadgeOfficer" source="x_545192_badgeoffi">84a1c00ddb9c2410a52948703996198c</sys_package>
@@ -55,7 +55,7 @@
         <sys_scope display_value="BadgeOfficer">84a1c00ddb9c2410a52948703996198c</sys_scope>
         <sys_update_name>sys_ui_action_6784a0c5db106410a52948703996193e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-03 18:53:10</sys_updated_on>
+        <sys_updated_on>2020-11-04 09:10:54</sys_updated_on>
         <table>x_545192_badgeoffi_userbadges</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>true</ui16_compatible>
