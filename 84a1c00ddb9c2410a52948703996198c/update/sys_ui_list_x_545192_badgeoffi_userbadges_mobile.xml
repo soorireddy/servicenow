@@ -2,108 +2,48 @@
     <sys_ui_list parent="" relationship="" sys_domain="global" table="x_545192_badgeoffi_userbadges" version="2" view="Mobile">
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>number</element>
-            <list_id display_value="x_545192_badgeoffi_userbadges" element="NULL" name="x_545192_badgeoffi_userbadges" parent="NULL" relationship="NULL" sys_domain="global" view="9950b340c923101091f9f0646483271f">91fe4c45dbdc2410a52948703996190b</list_id>
+            <element>badgevalidfrom</element>
+            <list_id display_value="x_545192_badgeoffi_userbadges" element="NULL" name="x_545192_badgeoffi_userbadges" parent="NULL" relationship="NULL" sys_domain="global" view="9950b340c923101091f9f0646483271f">df750f4ddb946410a529487039961909</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-11-03 17:15:44</sys_created_on>
-            <sys_id>d9fec885dbdc2410a529487039961916</sys_id>
+            <sys_created_on>2020-11-04 06:33:13</sys_created_on>
+            <sys_id>5b750f4ddb946410a52948703996190a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-11-03 17:15:44</sys_updated_on>
+            <sys_updated_on>2020-11-04 06:33:13</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>badgeid</element>
-            <list_id display_value="x_545192_badgeoffi_userbadges" element="NULL" name="x_545192_badgeoffi_userbadges" parent="NULL" relationship="NULL" sys_domain="global" view="9950b340c923101091f9f0646483271f">91fe4c45dbdc2410a52948703996190b</list_id>
+            <element>badgevalidto</element>
+            <list_id display_value="x_545192_badgeoffi_userbadges" element="NULL" name="x_545192_badgeoffi_userbadges" parent="NULL" relationship="NULL" sys_domain="global" view="9950b340c923101091f9f0646483271f">df750f4ddb946410a529487039961909</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-11-03 17:15:44</sys_created_on>
-            <sys_id>91fec885dbdc2410a529487039961917</sys_id>
+            <sys_created_on>2020-11-04 06:33:13</sys_created_on>
+            <sys_id>db750f4ddb946410a52948703996190a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-11-03 17:15:44</sys_updated_on>
+            <sys_updated_on>2020-11-04 06:33:13</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>badgestatus</element>
-            <list_id display_value="x_545192_badgeoffi_userbadges" element="NULL" name="x_545192_badgeoffi_userbadges" parent="NULL" relationship="NULL" sys_domain="global" view="9950b340c923101091f9f0646483271f">91fe4c45dbdc2410a52948703996190b</list_id>
+            <element>user</element>
+            <list_id display_value="x_545192_badgeoffi_userbadges" element="NULL" name="x_545192_badgeoffi_userbadges" parent="NULL" relationship="NULL" sys_domain="global" view="9950b340c923101091f9f0646483271f">df750f4ddb946410a529487039961909</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-11-03 17:15:44</sys_created_on>
-            <sys_id>15fec885dbdc2410a529487039961917</sys_id>
+            <sys_created_on>2020-11-04 06:33:13</sys_created_on>
+            <sys_id>5f750f4ddb946410a52948703996190a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-11-03 17:15:44</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>badgetype</element>
-            <list_id display_value="x_545192_badgeoffi_userbadges" element="NULL" name="x_545192_badgeoffi_userbadges" parent="NULL" relationship="NULL" sys_domain="global" view="9950b340c923101091f9f0646483271f">91fe4c45dbdc2410a52948703996190b</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>3</position>
-            <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-11-03 17:15:44</sys_created_on>
-            <sys_id>95fec885dbdc2410a529487039961917</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-11-03 17:15:44</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>badgevalidfrom</element>
-            <list_id display_value="x_545192_badgeoffi_userbadges" element="NULL" name="x_545192_badgeoffi_userbadges" parent="NULL" relationship="NULL" sys_domain="global" view="9950b340c923101091f9f0646483271f">91fe4c45dbdc2410a52948703996190b</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>4</position>
-            <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-11-03 17:15:44</sys_created_on>
-            <sys_id>19fec885dbdc2410a529487039961917</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-11-03 17:15:44</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>badgevalidto</element>
-            <list_id display_value="x_545192_badgeoffi_userbadges" element="NULL" name="x_545192_badgeoffi_userbadges" parent="NULL" relationship="NULL" sys_domain="global" view="9950b340c923101091f9f0646483271f">91fe4c45dbdc2410a52948703996190b</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>5</position>
-            <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-11-03 17:15:44</sys_created_on>
-            <sys_id>99fec885dbdc2410a529487039961917</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-11-03 17:15:44</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>user</element>
-            <list_id display_value="x_545192_badgeoffi_userbadges" element="NULL" name="x_545192_badgeoffi_userbadges" parent="NULL" relationship="NULL" sys_domain="global" view="9950b340c923101091f9f0646483271f">91fe4c45dbdc2410a52948703996190b</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>6</position>
-            <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-11-03 17:15:44</sys_created_on>
-            <sys_id>1dfec885dbdc2410a529487039961917</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-11-03 17:15:44</sys_updated_on>
+            <sys_updated_on>2020-11-04 06:33:13</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -117,10 +57,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-11-03 17:15:44</sys_created_on>
+            <sys_created_on>2020-11-04 06:33:13</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>91fe4c45dbdc2410a52948703996190b</sys_id>
+            <sys_id>df750f4ddb946410a529487039961909</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_545192_badgeoffi_userbadges</sys_name>
             <sys_package display_value="BadgeOfficer" source="x_545192_badgeoffi">84a1c00ddb9c2410a52948703996198c</sys_package>
@@ -128,7 +68,7 @@
             <sys_scope display_value="BadgeOfficer">84a1c00ddb9c2410a52948703996198c</sys_scope>
             <sys_update_name>sys_ui_list_x_545192_badgeoffi_userbadges_Mobile</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-11-03 17:15:44</sys_updated_on>
+            <sys_updated_on>2020-11-04 06:33:13</sys_updated_on>
             <sys_user/>
             <view display_value="Mobile" name="Mobile">9950b340c923101091f9f0646483271f</view>
             <view_name/>
