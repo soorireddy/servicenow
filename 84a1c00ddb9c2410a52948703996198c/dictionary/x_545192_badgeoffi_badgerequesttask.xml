@@ -3,6 +3,5 @@
         <element attributes="edge_encryption_enabled=true" label="RequestDate" max_length="40" name="requestdate" type="glide_date_time"/>
         <element attributes="encode_utf8=false" label="RequestedBy" max_length="32" name="requestedby" read_only="true" reference="sys_user" type="reference"/>
         <element attributes="encode_utf8=false" label="RequestFor" mandatory="true" max_length="32" name="requestfor" reference="sys_user" type="reference"/>
-        <element label="UserImage" max_length="40" name="userimage" type="user_image"/>
     </element>
 </database>
