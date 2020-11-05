@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="UserBadges" max_length="40" name="x_545192_badgeoffi_userbadges" sizeclass="7" type="collection">
+    <element label="UserBadges" max_length="40" name="x_545192_badgeoffi_userbadges" sizeclass="1" type="collection">
         <element label="Attachment ID" max_length="100" name="attachment_id" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="BadgeId" mandatory="true" max_length="40" name="badgeid" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" default="active" label="BadgeStatus" mandatory="true" max_length="40" name="badgestatus" type="string">
@@ -16,9 +16,10 @@
         </element>
         <element attributes="edge_encryption_enabled=true" label="BadgeValidFrom" mandatory="true" max_length="40" name="badgevalidfrom" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" label="BadgeValidTo" mandatory="true" max_length="40" name="badgevalidto" type="glide_date_time"/>
-        <element display="true" label="CardHolderImage" max_length="40" name="cardholderimage" type="user_image"/>
+        <element label="CardHolderImage" max_length="40" name="cardholderimage" type="user_image"/>
         <element label="CompanyName" max_length="300" name="companyname" type="string"/>
         <element label="Image content type" max_length="50" name="image_content_type" type="string"/>
+        <element display="true" label="Issue Mobile Credentials" max_length="10" name="issue_mobile_credentials" type="boolean"/>
         <element label="logo" max_length="200" name="logo" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element choice="3" label="Provision" max_length="20" name="provision" type="string">
