@@ -22,6 +22,7 @@
         <element display="true" label="Issue Mobile Credentials" max_length="10" name="issue_mobile_credentials" type="boolean"/>
         <element label="logo" max_length="200" name="logo" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Parent request num" max_length="100" name="parent_request_num" type="string"/>
         <element choice="3" label="Provision" max_length="20" name="provision" type="string">
             <choice>
                 <element inactive_on_update="false" label="No" value="no"/>
