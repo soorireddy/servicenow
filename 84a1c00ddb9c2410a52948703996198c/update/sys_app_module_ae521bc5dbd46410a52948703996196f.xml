@@ -13,7 +13,7 @@
         <mobile_title>BadgeConfigurations</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_545192_badgeoffi_badgeconfiguration</name>
-        <order>101</order>
+        <order>1</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -24,7 +24,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ae521bc5dbd46410a52948703996196f</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>BadgeConfigurations</sys_name>
         <sys_overrides/>
         <sys_package display_value="BadgeOfficer" source="x_545192_badgeoffi">84a1c00ddb9c2410a52948703996198c</sys_package>
@@ -32,7 +32,7 @@
         <sys_scope display_value="BadgeOfficer">84a1c00ddb9c2410a52948703996198c</sys_scope>
         <sys_update_name>sys_app_module_ae521bc5dbd46410a52948703996196f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-04 13:00:51</sys_updated_on>
+        <sys_updated_on>2020-11-05 09:56:17</sys_updated_on>
         <timeline_page/>
         <title>BadgeConfigurations</title>
         <uncancelable>false</uncancelable>

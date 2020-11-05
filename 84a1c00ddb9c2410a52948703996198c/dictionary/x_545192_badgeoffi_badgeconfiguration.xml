@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="BadgeConfiguration" max_length="40" name="x_545192_badgeoffi_badgeconfiguration" sizeclass="1" type="collection">
         <element label="CompanyName" mandatory="true" max_length="40" name="companyname" type="string"/>
-        <element display="true" label="imagestr" max_length="300000" name="imagestr" type="string"/>
-        <element label="logo" mandatory="true" max_length="300" name="logo" type="string"/>
+        <element label="CompanyLogo" mandatory="true" max_length="300" name="logo" type="string"/>
+        <element display="true" label="SVG" max_length="10000" name="svg" type="string_full_utf8"/>
         <element label="Template" mandatory="true" max_length="2000" name="template" type="string_full_utf8"/>
     </element>
 </database>

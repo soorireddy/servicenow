@@ -4,27 +4,13 @@
             <element>user</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-11-04 14:34:35</sys_created_on>
-            <sys_id>22a338dddbd86410a5294870399619af</sys_id>
+            <sys_created_on>2020-11-05 09:33:55</sys_created_on>
+            <sys_id>c47834e9db94a410a52948703996190a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_545192_badgeoffi_userbadges" sys_domain="global" view="Default view">602fc885dbdc2410a52948703996191e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-11-04 14:34:35</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>cardholderimage</element>
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-11-04 18:57:45</sys_created_on>
-            <sys_id>edefed19db9c6410a5294870399619e0</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_545192_badgeoffi_userbadges" sys_domain="global" view="Default view">602fc885dbdc2410a52948703996191e</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-11-04 18:57:45</sys_updated_on>
+            <sys_updated_on>2020-11-05 09:33:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

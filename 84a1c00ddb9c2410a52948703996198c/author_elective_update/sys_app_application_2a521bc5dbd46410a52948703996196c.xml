@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Badge</name>
+        <order>100</order>
+        <roles>admin</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-04 07:29:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2a521bc5dbd46410a52948703996196c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Badge</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="BadgeOfficer" source="x_545192_badgeoffi">84a1c00ddb9c2410a52948703996198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BadgeOfficer">84a1c00ddb9c2410a52948703996198c</sys_scope>
+        <sys_update_name>sys_app_application_2a521bc5dbd46410a52948703996196c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-04 07:29:26</sys_updated_on>
+        <title>Badge</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BadgeOfficer">84a1c00ddb9c2410a52948703996198c</application>
+        <file_path/>
+        <instance_id>be6e6ee5dbd7938052e3f70fbf961982</instance_id>
+        <instance_name>dev64819</instance_name>
+        <name>sys_app_application_2a521bc5dbd46410a52948703996196c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>Badge</name><order>100</order><roles>admin</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-11-04 07:29:26</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>2a521bc5dbd46410a52948703996196c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Badge</sys_name><sys_overrides/><sys_package display_value="BadgeOfficer" source="x_545192_badgeoffi">84a1c00ddb9c2410a52948703996198c</sys_package><sys_policy/><sys_scope display_value="BadgeOfficer">84a1c00ddb9c2410a52948703996198c</sys_scope><sys_update_name>sys_app_application_2a521bc5dbd46410a52948703996196c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-11-04 07:29:26</sys_updated_on><title>Badge</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>-1604230714</payload_hash>
+        <record_name>Badge</record_name>
+        <reverted_from/>
+        <source>67b70041dbdc2410a5294870399619f7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-04 07:29:26</sys_created_on>
+        <sys_id>e6521bc5dbd46410a52948703996196f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1759229105a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-04 07:29:26</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>22521bc53ed464101c7062e7b958156f</update_guid>
+        <update_guid_history>22521bc53ed464101c7062e7b958156f:-1604230714</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Badge">ea7dbcaddb94a410a52948703996191c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-05 09:55:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>0bd188abedf84b48a0e6645c603d6944</sys_id>
+        <sys_metadata>2a521bc5dbd46410a52948703996196c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Badge</sys_name>
+        <sys_package display_value="BadgeOfficer" source="x_545192_badgeoffi">84a1c00ddb9c2410a52948703996198c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BadgeOfficer">84a1c00ddb9c2410a52948703996198c</sys_scope>
+        <sys_scope_delete display_value="">05c42e24070c45278c8fe39e3aa15ca9</sys_scope_delete>
+        <sys_update_name>sys_app_application_2a521bc5dbd46410a52948703996196c</sys_update_name>
+        <sys_update_version display_value="sys_app_application_2a521bc5dbd46410a52948703996196c">e6521bc5dbd46410a52948703996196f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-05 09:55:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -30,9 +30,28 @@
         <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
     gs.info('loading badge configuration');
     try {
-        gs.info('user photo sysid  :: ' + current.user.photo);
-		current.cardholderimage=current.user.photo;
-		var r = new sn_ws.RESTMessageV2('x_545192_badgeoffi.Get Badge Configuration', 'Default GET');
+        if (current.user && current.user.photo) {
+            gs.info('setting User image from Master User info i.e., sys_user');
+            current.cardholderimage = current.user.photo;
+            var userAttachments = new GlideSysAttachment();
+            var sysUserImage = userAttachments.getAttachments('ZZ_YYsys_user', current.user.sys_id);
+            while (sysUserImage.next())
+                if (sysUserImage.getValue('file_name') === 'photo') {
+                    var base64Content = userAttachments.getContentBase64(sysUserImage);
+                    gs.info('base64Content loaded');
+                    current.userimage = base64Content;
+                }
+        } else if (current.cardholderimage) {
+            gs.info('getting User image associated in badge request page');
+            var attachment = new GlideSysAttachment();
+            var agr = attachment.getAttachments('ZZ_YYx_545192_badgeoffi_userbadges', current.sys_id);
+            while (agr.next())
+                if (agr.getValue('file_name') === 'cardholderimage') {
+                    var base64Local = attachment.getContentBase64(agr);
+                    current.userimage = base64Local;
+                }
+        }
+        var r = new sn_ws.RESTMessageV2('x_545192_badgeoffi.Get Badge Configuration', 'Default GET');
         var response = r.executeAsync();
         response.waitForResponse(30);
         var responseBody = response.getBody();
@@ -42,9 +61,8 @@
         if (null != responseObj && null != responseObj.result) {
             gs.info('setting badge configuration to fields');
             current.logo = responseObj.result[0].logo;
-            current.userimage = responseObj.result[0].imagestr;
             current.template = responseObj.result[0].template;
-			current.companyname = responseObj.result[0].companyname;
+            current.companyname = responseObj.result[0].companyname;
         }
     } catch (ex) {
         var message = ex.message;
@@ -57,7 +75,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7273e051dbd86410a529487039961935</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_name>GetBadgeConfigInfoSetToFormForPrint</sys_name>
         <sys_overrides/>
         <sys_package display_value="BadgeOfficer" source="x_545192_badgeoffi">84a1c00ddb9c2410a52948703996198c</sys_package>
@@ -65,7 +83,7 @@
         <sys_scope display_value="BadgeOfficer">84a1c00ddb9c2410a52948703996198c</sys_scope>
         <sys_update_name>sys_script_7273e051dbd86410a529487039961935</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-04 19:49:26</sys_updated_on>
+        <sys_updated_on>2020-11-05 09:26:01</sys_updated_on>
         <template/>
         <when>before_display</when>
     </sys_script>
