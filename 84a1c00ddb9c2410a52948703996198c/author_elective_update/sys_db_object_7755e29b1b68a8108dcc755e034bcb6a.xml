@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="DELETE">
+        <access/>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>false</create_access_controls>
+        <delete_access>false</delete_access>
+        <extension_model/>
+        <is_extendable>false</is_extendable>
+        <label>Alert User Badges Import set</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_545192_badgeoffi_alert_user_badges_imp</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class display_value="Import Set Row" name="sys_import_set_row">e4c423a4db0313002a602f17d496194a</super_class>
+        <sys_class_code/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_class_path/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-23 14:14:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>7755e29b1b68a8108dcc755e034bcb6a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Badgeoffi Alert User Badges Imp</sys_name>
+        <sys_package display_value="BadgeOfficer" source="x_545192_badgeoffi">84a1c00ddb9c2410a52948703996198c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="BadgeOfficer">84a1c00ddb9c2410a52948703996198c</sys_scope>
+        <sys_update_name>sys_db_object_7755e29b1b68a8108dcc755e034bcb6a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-23 14:14:55</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role/>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BadgeOfficer">84a1c00ddb9c2410a52948703996198c</application>
+        <file_path/>
+        <instance_id>2d30a3a4db4f5780cbf6d5b0cf961946</instance_id>
+        <instance_name>ven02572</instance_name>
+        <name>sys_db_object_7755e29b1b68a8108dcc755e034bcb6a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access/><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>false</create_access_controls><delete_access>false</delete_access><extension_model/><is_extendable>false</is_extendable><label>Alert User Badges Import set</label><live_feed_enabled>false</live_feed_enabled><name>x_545192_badgeoffi_alert_user_badges_imp</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class display_value="Import Set Row" name="sys_import_set_row">e4c423a4db0313002a602f17d496194a</super_class><sys_class_code/><sys_class_name>sys_db_object</sys_class_name><sys_class_path/><sys_created_by>admin</sys_created_by><sys_created_on>2020-11-23 14:14:55</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>7755e29b1b68a8108dcc755e034bcb6a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Badgeoffi Alert User Badges Imp</sys_name><sys_package display_value="BadgeOfficer" source="x_545192_badgeoffi">84a1c00ddb9c2410a52948703996198c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="BadgeOfficer">84a1c00ddb9c2410a52948703996198c</sys_scope><sys_update_name>sys_db_object_7755e29b1b68a8108dcc755e034bcb6a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-11-23 14:14:55</sys_updated_on><update_access>false</update_access><user_role/><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+        <payload_hash>-1938707848</payload_hash>
+        <record_name>Alert User Badges Import set</record_name>
+        <reverted_from/>
+        <source>2a9a3803dbe8a810101fc082ba96197c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-23 14:14:56</sys_created_on>
+        <sys_id>fb552adb1b68a8108dcc755e034bcba9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>175f575230c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-23 14:14:56</sys_updated_on>
+        <type>Table</type>
+        <update_guid>77552adb3168a810d0daaaea1d6d61a9</update_guid>
+        <update_guid_history>77552adb3168a810d0daaaea1d6d61a9:-1938707848</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-23 14:19:25</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
+        <sys_id>1867a5d970904917866a5c1c16164351</sys_id>
+        <sys_metadata>7755e29b1b68a8108dcc755e034bcb6a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Badgeoffi Alert User Badges Imp</sys_name>
+        <sys_package display_value="BadgeOfficer" source="x_545192_badgeoffi">84a1c00ddb9c2410a52948703996198c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="BadgeOfficer">84a1c00ddb9c2410a52948703996198c</sys_scope>
+        <sys_scope_delete display_value="">05c42e24070c45278c8fe39e3aa15ca9</sys_scope_delete>
+        <sys_update_name>sys_db_object_7755e29b1b68a8108dcc755e034bcb6a</sys_update_name>
+        <sys_update_version display_value="sys_db_object_7755e29b1b68a8108dcc755e034bcb6a">fb552adb1b68a8108dcc755e034bcba9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-23 14:19:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

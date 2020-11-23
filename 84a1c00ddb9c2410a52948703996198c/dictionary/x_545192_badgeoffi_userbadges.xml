@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="UserBadges" max_length="40" name="x_545192_badgeoffi_userbadges" sizeclass="2" type="collection">
+        <element label="AlertProvisionStatus" max_length="40" name="alertprovisionstatus" type="boolean"/>
         <element label="Attachment ID" max_length="100" name="attachment_id" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="BadgeId" mandatory="true" max_length="40" name="badgeid" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" default="active" label="BadgeStatus" mandatory="true" max_length="40" name="badgestatus" type="string">

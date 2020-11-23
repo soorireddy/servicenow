@@ -4,13 +4,13 @@
             <element>user</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-11-05 12:39:27</sys_created_on>
-            <sys_id>ade22969db18a410a52948703996199f</sys_id>
+            <sys_created_on>2020-11-23 14:28:17</sys_created_on>
+            <sys_id>af68aa5f1b68a8108dcc755e034bcb8d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_545192_badgeoffi_userbadges" sys_domain="global" view="Default view">602fc885dbdc2410a52948703996191e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-11-05 12:39:27</sys_updated_on>
+            <sys_updated_on>2020-11-23 14:28:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>parent_request_num</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-11-05 12:39:27</sys_created_on>
-            <sys_id>21e22969db18a410a5294870399619a0</sys_id>
+            <sys_created_on>2020-11-23 14:28:17</sys_created_on>
+            <sys_id>2368aa5f1b68a8108dcc755e034bcb8e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_545192_badgeoffi_userbadges" sys_domain="global" view="Default view">602fc885dbdc2410a52948703996191e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-11-05 12:39:27</sys_updated_on>
+            <sys_updated_on>2020-11-23 14:28:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

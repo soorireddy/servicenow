@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="User Badges Import Set" max_length="40" name="x_545192_badgeoffi_user_badges_import_se" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_alertprovisionstatus" label="Alertprovisionstatus" max_length="40" name="u_alertprovisionstatus" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_attachment_id" label="Attachment ID" max_length="40" name="u_attachment_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_badgeid" label="Badgeid" max_length="40" name="u_badgeid" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_badgestatus" label="Badgestatus" max_length="40" name="u_badgestatus" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_badgetype" label="Badgetype" max_length="40" name="u_badgetype" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_badgevalidfrom" label="Badgevalidfrom" max_length="40" name="u_badgevalidfrom" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_badgevalidto" label="Badgevalidto" max_length="40" name="u_badgevalidto" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_cardholderimage" label="Cardholderimage" max_length="40" name="u_cardholderimage" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_companyname" label="Companyname" max_length="40" name="u_companyname" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_image_content_type" label="Image content type" max_length="40" name="u_image_content_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_issue_mobile_credentials" label="Issue mobile credentials" max_length="40" name="u_issue_mobile_credentials" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_logo" label="Logo" max_length="40" name="u_logo" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_number" label="Number" max_length="40" name="u_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_parent_request_num" label="Parent request num" max_length="40" name="u_parent_request_num" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_provision" label="Provision" max_length="40" name="u_provision" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_template" label="Template" max_length="40" name="u_template" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_user" label="User" max_length="40" name="u_user" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_userimage" label="Userimage" max_length="40" name="u_userimage" type="string"/>
+    </element>
+</database>

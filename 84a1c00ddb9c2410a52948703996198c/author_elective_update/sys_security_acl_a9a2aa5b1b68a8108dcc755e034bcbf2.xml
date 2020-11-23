@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_545192_badgeoffi_userbadgesimportset</description>
+        <name>x_545192_badgeoffi_userbadgesimportset</name>
+        <operation display_value="delete">delete</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-23 14:03:02</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a9a2aa5b1b68a8108dcc755e034bcbf2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_545192_badgeoffi_userbadgesimportset</sys_name>
+        <sys_package display_value="BadgeOfficer" source="x_545192_badgeoffi">84a1c00ddb9c2410a52948703996198c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="BadgeOfficer">84a1c00ddb9c2410a52948703996198c</sys_scope>
+        <sys_update_name>sys_security_acl_a9a2aa5b1b68a8108dcc755e034bcbf2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-23 14:03:02</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BadgeOfficer">84a1c00ddb9c2410a52948703996198c</application>
+        <file_path/>
+        <instance_id>2d30a3a4db4f5780cbf6d5b0cf961946</instance_id>
+        <instance_name>ven02572</instance_name>
+        <name>sys_security_acl_a9a2aa5b1b68a8108dcc755e034bcbf2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_545192_badgeoffi_userbadgesimportset</description><name>x_545192_badgeoffi_userbadgesimportset</name><operation display_value="delete">delete</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-11-23 14:03:02</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>a9a2aa5b1b68a8108dcc755e034bcbf2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_545192_badgeoffi_userbadgesimportset</sys_name><sys_package display_value="BadgeOfficer" source="x_545192_badgeoffi">84a1c00ddb9c2410a52948703996198c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="BadgeOfficer">84a1c00ddb9c2410a52948703996198c</sys_scope><sys_update_name>sys_security_acl_a9a2aa5b1b68a8108dcc755e034bcbf2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-11-23 14:03:02</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>1712432135</payload_hash>
+        <record_name>x_545192_badgeoffi_userbadgesimportset</record_name>
+        <reverted_from/>
+        <source>2a9a3803dbe8a810101fc082ba96197c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-23 14:03:02</sys_created_on>
+        <sys_id>61a2aa5b1b68a8108dcc755e034bcbf5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>175f56a3e870000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-23 14:03:02</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>a9a2aa5b1368a810ab3f618429f906f4</update_guid>
+        <update_guid_history>a9a2aa5b1368a810ab3f618429f906f4:1712432135</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-23 14:44:30</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>6153cdcdce4b4170a54722a2c6dd3c10</sys_id>
+        <sys_metadata>a9a2aa5b1b68a8108dcc755e034bcbf2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_545192_badgeoffi_userbadgesimportset</sys_name>
+        <sys_package display_value="BadgeOfficer" source="x_545192_badgeoffi">84a1c00ddb9c2410a52948703996198c</sys_package>
+        <sys_parent display_value="">25a2aa5b1b68a8108dcc755e034bcbf8</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="BadgeOfficer">84a1c00ddb9c2410a52948703996198c</sys_scope>
+        <sys_scope_delete display_value="">05c42e24070c45278c8fe39e3aa15ca9</sys_scope_delete>
+        <sys_update_name>sys_security_acl_a9a2aa5b1b68a8108dcc755e034bcbf2</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_a9a2aa5b1b68a8108dcc755e034bcbf2">61a2aa5b1b68a8108dcc755e034bcbf5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-23 14:44:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

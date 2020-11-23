@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config">
+    <ua_table_licensing_config action="DELETE">
+        <is_fulfillment>false</is_fulfillment>
+        <license_condition/>
+        <license_model>none</license_model>
+        <license_roles/>
+        <name>x_545192_badgeoffi_alert_user_badges_imp</name>
+        <op_delete>true</op_delete>
+        <op_insert>true</op_insert>
+        <op_update>true</op_update>
+        <owner_condition/>
+        <sys_class_name>ua_table_licensing_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-23 14:14:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b7552adb1b68a8108dcc755e034bcb99</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_545192_badgeoffi_alert_user_badges_imp</sys_name>
+        <sys_package display_value="BadgeOfficer" source="x_545192_badgeoffi">84a1c00ddb9c2410a52948703996198c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="BadgeOfficer">84a1c00ddb9c2410a52948703996198c</sys_scope>
+        <sys_update_name>ua_table_licensing_config_b7552adb1b68a8108dcc755e034bcb99</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-23 14:14:55</sys_updated_on>
+    </ua_table_licensing_config>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BadgeOfficer">84a1c00ddb9c2410a52948703996198c</application>
+        <file_path/>
+        <instance_id>2d30a3a4db4f5780cbf6d5b0cf961946</instance_id>
+        <instance_name>ven02572</instance_name>
+        <name>ua_table_licensing_config_b7552adb1b68a8108dcc755e034bcb99</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config"><ua_table_licensing_config action="INSERT_OR_UPDATE"><is_fulfillment>false</is_fulfillment><license_condition/><license_model>none</license_model><license_roles/><name>x_545192_badgeoffi_alert_user_badges_imp</name><op_delete>true</op_delete><op_insert>true</op_insert><op_update>true</op_update><owner_condition/><sys_class_name>ua_table_licensing_config</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-11-23 14:14:55</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>b7552adb1b68a8108dcc755e034bcb99</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_545192_badgeoffi_alert_user_badges_imp</sys_name><sys_package display_value="BadgeOfficer" source="x_545192_badgeoffi">84a1c00ddb9c2410a52948703996198c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="BadgeOfficer">84a1c00ddb9c2410a52948703996198c</sys_scope><sys_update_name>ua_table_licensing_config_b7552adb1b68a8108dcc755e034bcb99</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-11-23 14:14:55</sys_updated_on></ua_table_licensing_config></record_update>]]></payload>
+        <payload_hash>-1077084373</payload_hash>
+        <record_name>x_545192_badgeoffi_alert_user_badges_imp</record_name>
+        <reverted_from/>
+        <source>2a9a3803dbe8a810101fc082ba96197c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-23 14:14:55</sys_created_on>
+        <sys_id>bf552adb1b68a8108dcc755e034bcb9a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>175f57522eb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-23 14:14:55</sys_updated_on>
+        <type>Table Subscription Configuration</type>
+        <update_guid>f7552adb9868a81079318af83433b49a</update_guid>
+        <update_guid_history>f7552adb9868a81079318af83433b49a:-1077084373</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-23 14:19:25</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="ua_table_licensing_config">ua_table_licensing_config</sys_db_object>
+        <sys_id>35af505c2bf843c498bbe33fc1276290</sys_id>
+        <sys_metadata>b7552adb1b68a8108dcc755e034bcb99</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_545192_badgeoffi_alert_user_badges_imp</sys_name>
+        <sys_package display_value="BadgeOfficer" source="x_545192_badgeoffi">84a1c00ddb9c2410a52948703996198c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="BadgeOfficer">84a1c00ddb9c2410a52948703996198c</sys_scope>
+        <sys_scope_delete display_value="">05c42e24070c45278c8fe39e3aa15ca9</sys_scope_delete>
+        <sys_update_name>ua_table_licensing_config_b7552adb1b68a8108dcc755e034bcb99</sys_update_name>
+        <sys_update_version display_value="ua_table_licensing_config_b7552adb1b68a8108dcc755e034bcb99">bf552adb1b68a8108dcc755e034bcb9a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-23 14:19:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
