@@ -18,17 +18,19 @@
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>
-        <super_class display_value="Task" name="task">e3f033c4c923101091f9f06464832716</super_class>
+        <super_class display_value="Task" name="task">66c4e3a4db0313002a602f17d49619eb</super_class>
         <sys_class_code/>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_class_path/>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-11-03 16:27:52</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>5804808ddb9c2410a529487039961991</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>BadgeRequestTask</sys_name>
         <sys_package display_value="BadgeOfficer" source="x_545192_badgeoffi">84a1c00ddb9c2410a52948703996198c</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="BadgeOfficer">84a1c00ddb9c2410a52948703996198c</sys_scope>
         <sys_update_name>sys_db_object_5804808ddb9c2410a529487039961991</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>

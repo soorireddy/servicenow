@@ -65,10 +65,11 @@
         <update_guid_history>2c335c491edc24109480b8bf44885d58:-1208717810</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="UserBadgeRequests">b74a50cddbdc2410a5294870399619cf</sys_audit_delete>
+        <sys_audit_delete display_value="">b74a50cddbdc2410a5294870399619cf</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-11-03 18:05:20</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
         <sys_id>cd69914f700f42c097d2eca49153f384</sys_id>
         <sys_metadata>ac335c49dbdc2410a529487039961956</sys_metadata>
@@ -77,6 +78,7 @@
         <sys_package display_value="BadgeOfficer" source="x_545192_badgeoffi">84a1c00ddb9c2410a52948703996198c</sys_package>
         <sys_parent/>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="BadgeOfficer">84a1c00ddb9c2410a52948703996198c</sys_scope>
         <sys_scope_delete display_value="">05c42e24070c45278c8fe39e3aa15ca9</sys_scope_delete>
         <sys_update_name>sys_app_module_ac335c49dbdc2410a529487039961956</sys_update_name>

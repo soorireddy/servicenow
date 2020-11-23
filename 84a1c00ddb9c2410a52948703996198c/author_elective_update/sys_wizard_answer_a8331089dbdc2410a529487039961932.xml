@@ -42,13 +42,13 @@
         <source>4fa8bc72db002010a529487039961983</source>
         <source_table>sys_upgrade_history</source_table>
         <state>previous</state>
-        <sys_created_by/>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-10-27 20:31:40</sys_created_on>
         <sys_id>1c5a90cddbdc2410a529487039961926</sys_id>
-        <sys_mod_count/>
+        <sys_mod_count>0</sys_mod_count>
         <sys_recorded_at>1756bc257e00000000</sys_recorded_at>
-        <sys_updated_by/>
-        <sys_updated_on/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-22 11:49:39</sys_updated_on>
         <type>Answer</type>
         <update_guid>d85a90cda2dc241099d70fdbe393fa26</update_guid>
         <update_guid_history>d85a90cda2dc241099d70fdbe393fa26:-745210816</update_guid_history>
@@ -58,14 +58,16 @@
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-11-03 18:05:21</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_db_object display_value="" name="sys_wizard_answer">sys_wizard_answer</sys_db_object>
         <sys_id>1d0deea526d143b48aedc2bd2059ae10</sys_id>
         <sys_metadata>a8331089dbdc2410a529487039961932</sys_metadata>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>UserBadgeRequest</sys_name>
         <sys_package display_value="BadgeOfficer" source="x_545192_badgeoffi">84a1c00ddb9c2410a52948703996198c</sys_package>
-        <sys_parent display_value="Task">6ff033c4c923101091f9f06464832717</sys_parent>
+        <sys_parent display_value="">6ff033c4c923101091f9f06464832717</sys_parent>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="BadgeOfficer">84a1c00ddb9c2410a52948703996198c</sys_scope>
         <sys_scope_delete display_value="">05c42e24070c45278c8fe39e3aa15ca9</sys_scope_delete>
         <sys_update_name>sys_wizard_answer_a8331089dbdc2410a529487039961932</sys_update_name>

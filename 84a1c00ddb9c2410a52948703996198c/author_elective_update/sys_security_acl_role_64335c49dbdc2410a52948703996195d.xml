@@ -42,10 +42,11 @@
         <update_guid_history>e433dc49a7dc24102e437fa940b703ff:-353871076</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_545192_badgeoffi_userbadgerequest.admin">334a50cddbdc2410a529487039961994</sys_audit_delete>
+        <sys_audit_delete display_value="">334a50cddbdc2410a529487039961994</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-11-03 18:05:19</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
         <sys_id>15db8bc2152742b5954d007728c0ebe1</sys_id>
         <sys_metadata>64335c49dbdc2410a52948703996195d</sys_metadata>
@@ -54,6 +55,7 @@
         <sys_package display_value="BadgeOfficer" source="x_545192_badgeoffi">84a1c00ddb9c2410a52948703996198c</sys_package>
         <sys_parent display_value="">6c335c49dbdc2410a529487039961959</sys_parent>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="BadgeOfficer">84a1c00ddb9c2410a52948703996198c</sys_scope>
         <sys_scope_delete display_value="">05c42e24070c45278c8fe39e3aa15ca9</sys_scope_delete>
         <sys_update_name>sys_security_acl_role_64335c49dbdc2410a52948703996195d</sys_update_name>

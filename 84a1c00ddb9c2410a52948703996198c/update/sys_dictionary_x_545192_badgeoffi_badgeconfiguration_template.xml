@@ -53,15 +53,17 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-11-04 07:36:44</sys_created_on>
-        <sys_id>86b35bc5dbd46410a5294870399619a8</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>217ab083dbe8a810101fc082ba9619e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Template</sys_name>
         <sys_package display_value="BadgeOfficer" source="x_545192_badgeoffi">84a1c00ddb9c2410a52948703996198c</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="BadgeOfficer">84a1c00ddb9c2410a52948703996198c</sys_scope>
         <sys_update_name>sys_dictionary_x_545192_badgeoffi_badgeconfiguration_template</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-04 14:19:45</sys_updated_on>
+        <sys_updated_on>2020-11-22 11:49:25</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

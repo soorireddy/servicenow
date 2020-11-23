@@ -25,7 +25,6 @@
         <list_link>false</list_link>
         <list_save_with_form_button>false</list_save_with_form_button>
         <list_style/>
-        <messages/>
         <name>Activate</name>
         <onclick/>
         <order>100</order>
@@ -37,6 +36,7 @@
         <sys_class_name>sys_ui_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-11-05 11:35:25</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>666395addbd4a410a52948703996198e</sys_id>
@@ -45,6 +45,7 @@
         <sys_overrides/>
         <sys_package display_value="BadgeOfficer" source="x_545192_badgeoffi">84a1c00ddb9c2410a52948703996198c</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="BadgeOfficer">84a1c00ddb9c2410a52948703996198c</sys_scope>
         <sys_update_name>sys_ui_action_666395addbd4a410a52948703996198e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>

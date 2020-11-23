@@ -65,10 +65,11 @@
         <update_guid_history>1e5cd801b010641015e54297e166775c:-24410999,9ae44c8df19c2410163e43fe27b99537:1732731720</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Closed">c65e5411dbd86410a52948703996193e</sys_audit_delete>
+        <sys_audit_delete display_value="">c65e5411dbd86410a52948703996193e</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-11-04 13:01:27</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
         <sys_id>bbb171119728461a96c2758559658b64</sys_id>
         <sys_metadata>5ae44c8ddb9c2410a529487039961936</sys_metadata>
@@ -77,6 +78,7 @@
         <sys_package display_value="BadgeOfficer" source="x_545192_badgeoffi">84a1c00ddb9c2410a52948703996198c</sys_package>
         <sys_parent/>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="BadgeOfficer">84a1c00ddb9c2410a52948703996198c</sys_scope>
         <sys_scope_delete display_value="">05c42e24070c45278c8fe39e3aa15ca9</sys_scope_delete>
         <sys_update_name>sys_app_module_5ae44c8ddb9c2410a529487039961936</sys_update_name>

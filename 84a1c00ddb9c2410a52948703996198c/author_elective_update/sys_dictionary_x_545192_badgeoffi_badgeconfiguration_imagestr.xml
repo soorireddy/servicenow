@@ -108,6 +108,7 @@
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-11-05 09:26:19</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
         <sys_id>02e69e2bb80a4cb0808e356f0cf18e44</sys_id>
         <sys_metadata>c23d54dddb986410a52948703996193d</sys_metadata>
@@ -116,6 +117,7 @@
         <sys_package display_value="BadgeOfficer" source="x_545192_badgeoffi">84a1c00ddb9c2410a52948703996198c</sys_package>
         <sys_parent display_value="BadgeConfiguration">7dd117c5dbd46410a52948703996190e</sys_parent>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="BadgeOfficer">84a1c00ddb9c2410a52948703996198c</sys_scope>
         <sys_scope_delete display_value="">05c42e24070c45278c8fe39e3aa15ca9</sys_scope_delete>
         <sys_update_name>sys_dictionary_x_545192_badgeoffi_badgeconfiguration_imagestr</sys_update_name>

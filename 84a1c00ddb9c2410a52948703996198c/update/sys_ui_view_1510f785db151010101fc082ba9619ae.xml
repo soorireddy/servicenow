@@ -7,13 +7,15 @@
         <sys_class_name>sys_ui_view</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-11-04 09:48:12</sys_created_on>
-        <sys_id>ab12ffc9db186410a52948703996191d</sys_id>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>1510f785db151010101fc082ba9619ae</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Custom</sys_name>
         <sys_package display_value="BadgeOfficer" source="x_545192_badgeoffi">84a1c00ddb9c2410a52948703996198c</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="BadgeOfficer">84a1c00ddb9c2410a52948703996198c</sys_scope>
-        <sys_update_name>sys_ui_view_ab12ffc9db186410a52948703996191d</sys_update_name>
+        <sys_update_name>sys_ui_view_1510f785db151010101fc082ba9619ae</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-11-04 09:48:12</sys_updated_on>
         <title>Custom</title>

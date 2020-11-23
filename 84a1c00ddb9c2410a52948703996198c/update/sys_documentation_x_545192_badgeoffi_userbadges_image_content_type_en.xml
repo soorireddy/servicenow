@@ -11,11 +11,13 @@
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-11-05 10:19:06</sys_created_on>
-            <sys_id>f5c24da1dbd4a410a529487039961907</sys_id>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>397af083dbe8a810101fc082ba961937</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Image content type</sys_name>
             <sys_package display_value="BadgeOfficer" source="x_545192_badgeoffi">84a1c00ddb9c2410a52948703996198c</sys_package>
             <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="BadgeOfficer">84a1c00ddb9c2410a52948703996198c</sys_scope>
             <sys_update_name>sys_documentation_x_545192_badgeoffi_userbadges_image_content_type_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>

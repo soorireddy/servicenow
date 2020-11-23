@@ -25,16 +25,33 @@
         <list_link>false</list_link>
         <list_save_with_form_button>false</list_save_with_form_button>
         <list_style/>
-        <messages/>
         <name>Print</name>
         <onclick>badgePrint()</onclick>
         <order>2</order>
         <script><![CDATA[function badgePrint() {
-var gdw = new GlideModal('badge_print_preview_page' , false, 500);
-gdw.render();
+	var badgeid = g_form.getValue('badgeid');
+	var templateString = g_form.getValue('template');
+	templateString = templateString.replace('##COMPANYNAME##', g_form.getValue('companyname'));
+    templateString = templateString.replace('##BADGEID##', g_form.getValue('badgeid'));
+    templateString = templateString.replace('##USERIMAGE##', g_form.getValue('userimage'));
+    var gdw = new GlideModal('badge_print_preview_page', false, 500);
+    gdw.setTitle("Preview & Print");
+  
+    gdw.setPreference("sysparm_badgeid", badgeid);
+    gdw.setPreference("sysparm_template", templateString);
+    gdw.render();
 }
 
-]]></script>
+if (typeof window == 'undefined')
+    someServerCall();
+
+
+//Server-side function
+function someServerCall() {
+    current.setValue("state", 15);
+    current.update();
+    action.setRedirectURL(current);
+}]]></script>
         <show_insert>true</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
@@ -42,18 +59,20 @@ gdw.render();
         <sys_class_name>sys_ui_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-11-04 16:26:22</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>65ec8d11db5c6410a52948703996190f</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_name>Print</sys_name>
         <sys_overrides/>
         <sys_package display_value="BadgeOfficer" source="x_545192_badgeoffi">84a1c00ddb9c2410a52948703996198c</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="BadgeOfficer">84a1c00ddb9c2410a52948703996198c</sys_scope>
         <sys_update_name>sys_ui_action_65ec8d11db5c6410a52948703996190f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-04 18:19:03</sys_updated_on>
+        <sys_updated_on>2020-11-22 16:37:14</sys_updated_on>
         <table>x_545192_badgeoffi_userbadges</table>
         <ui11_compatible>false</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
