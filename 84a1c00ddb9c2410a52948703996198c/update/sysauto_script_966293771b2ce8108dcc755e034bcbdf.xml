@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time>1970-01-01 00:00:00</entered_time>
+        <name>Get Badge Template</name>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period>1970-01-02 00:00:00</run_period>
+        <run_start>2020-11-25 06:48:39</run_start>
+        <run_time>1970-01-01 08:00:00</run_time>
+        <run_type>periodically</run_type>
+        <script><![CDATA[getTemplate();
+
+function getTemplate() {
+    try {
+        gs.info("Get Template   :: begin ");
+        var r = new sn_ws.RESTMessageV2('x_545192_badgeoffi.GetAlertAccessToken', 'POSTREQUESTTOGETJWT');
+        r.setStringParameterNoEscape('password', '"Alert1234"');
+        r.setStringParameterNoEscape('username', '"admin"');
+        var response = r.execute();
+        var responseBody = response.getBody();
+        var httpStatus = response.getStatusCode();
+        var Token = null;
+        var responseObj = JSON.parse(responseBody);
+        if (null != responseObj && responseObj.success && null != responseObj.data) {
+            Token = responseObj.data.access_token;
+        }
+        if (null != Token) {
+            gs.info("Got the Token");
+            var templateRequest = new sn_ws.RESTMessageV2('x_545192_badgeoffi.GetBadgeTemplateFromAlert', 'POSTREQUEST');
+            templateRequest.setStringParameterNoEscape('Token', Token);
+            var templateResponse = templateRequest.execute();
+            var templateResponseBody = templateResponse.getBody();
+            var templateResponseStatus = templateResponse.getStatusCode();
+            var templateResponseObject = JSON.parse(templateResponseBody);
+            if (null != templateResponseObject && templateResponseObject.success) {
+                var rec = new GlideRecordSecure('x_545192_badgeoffi_badgeconfiguration');
+                rec.query();
+                while (rec.next()) {
+                    rec.setValue('svg', templateResponseObject.data[0].frontSideBadgeHTML);
+                    gs.info('updated x_545192_badgeoffi_badgeconfiguration SVG');
+                    rec.update();
+                }
+            }
+        }
+    } catch (ex) {
+        var message = ex.message;
+    }
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-25 06:53:47</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>966293771b2ce8108dcc755e034bcbdf</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>Get Badge Template</sys_name>
+        <sys_package display_value="BadgeOfficer" source="x_545192_badgeoffi">84a1c00ddb9c2410a52948703996198c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="BadgeOfficer">84a1c00ddb9c2410a52948703996198c</sys_scope>
+        <sys_update_name>sysauto_script_966293771b2ce8108dcc755e034bcbdf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-25 12:23:21</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="INSERT_OR_UPDATE">
+        <authentication_type>no_authentication</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <content>{}</content>
+        <function_name>POSTREQUEST</function_name>
+        <http_method>post</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>GetBadgeTemplateFromAlert [ POSTREQUEST ]</qualified_name>
+        <rest_endpoint>http://125.19.78.185/api/badgedesigner/find</rest_endpoint>
+        <rest_message display_value="GetBadgeTemplateFromAlert">39cd47b31b2ce8108dcc755e034bcbde</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-25 06:31:39</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>098e8fb31b2ce8108dcc755e034bcbfa</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>POSTREQUEST</sys_name>
+        <sys_package display_value="BadgeOfficer" source="x_545192_badgeoffi">84a1c00ddb9c2410a52948703996198c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="BadgeOfficer">84a1c00ddb9c2410a52948703996198c</sys_scope>
+        <sys_update_name>sys_rest_message_fn_098e8fb31b2ce8108dcc755e034bcbfa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-25 09:54:02</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+</record_update>
