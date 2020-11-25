@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_hr_core_service">
+    <sn_hr_core_service action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <approval_options/>
+        <auto_close_case>false</auto_close_case>
+        <auto_close_offset/>
+        <badge display_value="HR">6439a617c3b00300b599b4ad81d3ae57</badge>
+        <case_creation_service_config/>
+        <case_options/>
+        <close_when/>
+        <description/>
+        <flow/>
+        <fulfillment_instructions/>
+        <fulfillment_type>lifecycle_event</fulfillment_type>
+        <header_config_opened_for display_value="Default for opened for/approver">86d9872eb3900300f5302ddc16a8dc8b</header_config_opened_for>
+        <header_config_subject_person display_value="Default for opened for/approver">86d9872eb3900300f5302ddc16a8dc8b</header_config_subject_person>
+        <hr_criteria/>
+        <kb_articles/>
+        <le_type display_value="Onboarding">dbe0fe9cdb5432009aa2f4eabf9619e4</le_type>
+        <name>SSS:AssignBadge</name>
+        <producer/>
+        <service_table>sn_hr_core_case_operations</service_table>
+        <service_table_fields/>
+        <subject_person_access>true</subject_person_access>
+        <subject_person_related_lists/>
+        <sys_class_name>sn_hr_core_service</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-25 13:05:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>a258e4841bfce8108dcc755e034bcb31</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>SSS:AssignBadge</sys_name>
+        <sys_package display_value="BadgeOfficer" source="x_545192_badgeoffi">84a1c00ddb9c2410a52948703996198c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="BadgeOfficer">84a1c00ddb9c2410a52948703996198c</sys_scope>
+        <sys_update_name>sn_hr_core_service_a258e4841bfce8108dcc755e034bcb31</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-25 16:43:39</sys_updated_on>
+        <template/>
+        <topic_detail display_value="Account Access">eb0705a69f331200d9011977677fcf66</topic_detail>
+        <value>sss_assignbadge</value>
+        <workflow_detail/>
+    </sn_hr_core_service>
+    <sys_translated_text action="delete_multiple" query="documentkey=a258e4841bfce8108dcc755e034bcb31"/>
+</record_update>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_hr_le_activity_field_mapping">
+    <sn_hr_le_activity_field_mapping action="DELETE">
+        <activity display_value="SSS:AddBadge">22e86c841bfce8108dcc755e034bcb4e</activity>
+        <map_from>field</map_from>
+        <map_from_custom_text/>
+        <map_from_field>subject_person</map_from_field>
+        <map_from_table>sn_hr_le_case</map_from_table>
+        <map_to_field>subject_person</map_to_field>
+        <map_to_table>sn_hr_core_case</map_to_table>
+        <map_to_variable/>
+        <sys_class_name>sn_hr_le_activity_field_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-25 13:07:31</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>8c296c841bfce8108dcc755e034bcb56</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>subject_person</sys_name>
+        <sys_package display_value="BadgeOfficer" source="x_545192_badgeoffi">84a1c00ddb9c2410a52948703996198c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="BadgeOfficer">84a1c00ddb9c2410a52948703996198c</sys_scope>
+        <sys_update_name>sn_hr_le_activity_field_mapping_8c296c841bfce8108dcc755e034bcb56</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-25 13:07:31</sys_updated_on>
+    </sn_hr_le_activity_field_mapping>
+    <sys_translated_text action="DELETE" query="documentkey=8c296c841bfce8108dcc755e034bcb56"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BadgeOfficer">84a1c00ddb9c2410a52948703996198c</application>
+        <file_path/>
+        <instance_id>2d30a3a4db4f5780cbf6d5b0cf961946</instance_id>
+        <instance_name>ven02572</instance_name>
+        <name>sn_hr_le_activity_field_mapping_8c296c841bfce8108dcc755e034bcb56</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_hr_le_activity_field_mapping"><sn_hr_le_activity_field_mapping action="INSERT_OR_UPDATE"><activity display_value="SSS:AddBadge">22e86c841bfce8108dcc755e034bcb4e</activity><map_from>field</map_from><map_from_custom_text/><map_from_field>subject_person</map_from_field><map_from_table>sn_hr_le_case</map_from_table><map_to_field>subject_person</map_to_field><map_to_table>sn_hr_core_case</map_to_table><map_to_variable/><sys_class_name>sn_hr_le_activity_field_mapping</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-11-25 13:07:31</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_id>8c296c841bfce8108dcc755e034bcb56</sys_id><sys_mod_count>0</sys_mod_count><sys_name>subject_person</sys_name><sys_package display_value="BadgeOfficer" source="x_545192_badgeoffi">84a1c00ddb9c2410a52948703996198c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="BadgeOfficer">84a1c00ddb9c2410a52948703996198c</sys_scope><sys_update_name>sn_hr_le_activity_field_mapping_8c296c841bfce8108dcc755e034bcb56</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-11-25 13:07:31</sys_updated_on></sn_hr_le_activity_field_mapping><sys_translated_text action="delete_multiple" query="documentkey=8c296c841bfce8108dcc755e034bcb56"/></record_update>]]></payload>
+        <payload_hash>-256226701</payload_hash>
+        <record_name>subject_person</record_name>
+        <reverted_from/>
+        <source>2a9a3803dbe8a810101fc082ba96197c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-25 13:07:31</sys_created_on>
+        <sys_id>44296c841bfce8108dcc755e034bcb58</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>175ff8425010000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-25 13:07:31</sys_updated_on>
+        <type>Activity Field Mapping</type>
+        <update_guid>8c296c8455fce810e5feda9244b0f457</update_guid>
+        <update_guid_history>8c296c8455fce810e5feda9244b0f457:-256226701</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2020-11-25 08:03:23">0061d50c1b302c108dcc755e034bcbe5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-25 16:03:23</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sn_hr_le_activity_field_mapping">sn_hr_le_activity_field_mapping</sys_db_object>
+        <sys_id>a48bcc30a75a4a229680d91ebb0ed191</sys_id>
+        <sys_metadata>8c296c841bfce8108dcc755e034bcb56</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>subject_person</sys_name>
+        <sys_package display_value="BadgeOfficer" source="x_545192_badgeoffi">84a1c00ddb9c2410a52948703996198c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="BadgeOfficer">84a1c00ddb9c2410a52948703996198c</sys_scope>
+        <sys_scope_delete display_value="">05c42e24070c45278c8fe39e3aa15ca9</sys_scope_delete>
+        <sys_update_name>sn_hr_le_activity_field_mapping_8c296c841bfce8108dcc755e034bcb56</sys_update_name>
+        <sys_update_version display_value="sn_hr_le_activity_field_mapping_8c296c841bfce8108dcc755e034bcb56">44296c841bfce8108dcc755e034bcb58</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-25 16:03:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

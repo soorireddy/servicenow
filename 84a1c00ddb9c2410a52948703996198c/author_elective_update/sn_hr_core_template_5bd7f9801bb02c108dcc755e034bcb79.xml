@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_hr_core_template">
+    <sn_hr_core_template action="DELETE">
+        <active>true</active>
+        <assign_to/>
+        <assignment_option/>
+        <assignment_type/>
+        <date_offset_quantity>0</date_offset_quantity>
+        <date_offset_type>on</date_offset_type>
+        <date_offset_units/>
+        <due_date_source/>
+        <global>true</global>
+        <group/>
+        <link_element/>
+        <name>Badging Officer Assign Badge</name>
+        <next/>
+        <next_child/>
+        <owning_group/>
+        <parent_case_table>sn_hr_core_case</parent_case_table>
+        <roles/>
+        <short_description/>
+        <show_on_template_bar>true</show_on_template_bar>
+        <stand_alone>false</stand_alone>
+        <sys_class_name>sn_hr_core_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-25 18:52:05</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>5bd7f9801bb02c108dcc755e034bcb79</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Badging Officer Assign Badge</sys_name>
+        <sys_package display_value="BadgeOfficer" source="x_545192_badgeoffi">84a1c00ddb9c2410a52948703996198c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="BadgeOfficer">84a1c00ddb9c2410a52948703996198c</sys_scope>
+        <sys_update_name>sn_hr_core_template_5bd7f9801bb02c108dcc755e034bcb79</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-25 18:52:05</sys_updated_on>
+        <table/>
+        <template/>
+        <template_reference/>
+        <template_reference_field/>
+        <use_assignment_date>false</use_assignment_date>
+        <user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user>
+        <view/>
+    </sn_hr_core_template>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BadgeOfficer">84a1c00ddb9c2410a52948703996198c</application>
+        <file_path/>
+        <instance_id>2d30a3a4db4f5780cbf6d5b0cf961946</instance_id>
+        <instance_name>ven02572</instance_name>
+        <name>sn_hr_core_template_5bd7f9801bb02c108dcc755e034bcb79</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_hr_core_template"><sn_hr_core_template action="INSERT_OR_UPDATE"><active>true</active><assign_to/><assignment_option/><assignment_type/><date_offset_quantity>0</date_offset_quantity><date_offset_type>on</date_offset_type><date_offset_units/><due_date_source/><global>true</global><group/><link_element/><name>Badging Officer Assign Badge</name><next/><next_child/><owning_group/><parent_case_table>sn_hr_core_case</parent_case_table><roles/><short_description/><show_on_template_bar>true</show_on_template_bar><stand_alone>false</stand_alone><sys_class_name>sn_hr_core_template</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-11-25 18:52:05</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_id>5bd7f9801bb02c108dcc755e034bcb79</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Badging Officer Assign Badge</sys_name><sys_package display_value="BadgeOfficer" source="x_545192_badgeoffi">84a1c00ddb9c2410a52948703996198c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="BadgeOfficer">84a1c00ddb9c2410a52948703996198c</sys_scope><sys_update_name>sn_hr_core_template_5bd7f9801bb02c108dcc755e034bcb79</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-11-25 18:52:05</sys_updated_on><table/><template/><template_reference/><template_reference_field/><use_assignment_date>false</use_assignment_date><user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user><view/></sn_hr_core_template></record_update>]]></payload>
+        <payload_hash>1222311042</payload_hash>
+        <record_name>Badging Officer Assign Badge</record_name>
+        <reverted_from/>
+        <source>2a9a3803dbe8a810101fc082ba96197c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-25 18:52:05</sys_created_on>
+        <sys_id>dff7b1801bb02c108dcc755e034bcb0f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17600bf99a00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-25 18:52:05</sys_updated_on>
+        <type>HR Template</type>
+        <update_guid>1bf7b180afb02c10c0f1f2560f39a50f</update_guid>
+        <update_guid_history>1bf7b180afb02c10c0f1f2560f39a50f:1222311042</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2020-11-25 10:53:20">b14879801bb02c108dcc755e034bcbbc</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-25 18:53:20</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sn_hr_core_template">sn_hr_core_template</sys_db_object>
+        <sys_id>60737df5898844e5ab0195783a8e9261</sys_id>
+        <sys_metadata>5bd7f9801bb02c108dcc755e034bcb79</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Badging Officer Assign Badge</sys_name>
+        <sys_package display_value="BadgeOfficer" source="x_545192_badgeoffi">84a1c00ddb9c2410a52948703996198c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="BadgeOfficer">84a1c00ddb9c2410a52948703996198c</sys_scope>
+        <sys_scope_delete display_value="">05c42e24070c45278c8fe39e3aa15ca9</sys_scope_delete>
+        <sys_update_name>sn_hr_core_template_5bd7f9801bb02c108dcc755e034bcb79</sys_update_name>
+        <sys_update_version display_value="sn_hr_core_template_5bd7f9801bb02c108dcc755e034bcb79">dff7b1801bb02c108dcc755e034bcb0f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-25 18:53:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

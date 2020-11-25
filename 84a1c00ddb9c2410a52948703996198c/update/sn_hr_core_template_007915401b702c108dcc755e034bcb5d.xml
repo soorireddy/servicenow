@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_hr_core_template">
+    <sn_hr_core_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <assign_to/>
+        <assignment_option>named_user</assignment_option>
+        <assignment_type>employee</assignment_type>
+        <date_offset_quantity/>
+        <date_offset_type>on</date_offset_type>
+        <date_offset_units/>
+        <due_date_source/>
+        <global>true</global>
+        <group/>
+        <link_element/>
+        <name>AlertSSSTemplate</name>
+        <next/>
+        <next_child/>
+        <owning_group/>
+        <parent_case_table>sn_hr_core_case</parent_case_table>
+        <roles/>
+        <short_description/>
+        <show_on_template_bar>true</show_on_template_bar>
+        <stand_alone>false</stand_alone>
+        <sys_class_name>sn_hr_core_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-25 16:39:37</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>007915401b702c108dcc755e034bcb5d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>AlertSSSTemplate</sys_name>
+        <sys_package display_value="BadgeOfficer" source="x_545192_badgeoffi">84a1c00ddb9c2410a52948703996198c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="BadgeOfficer">84a1c00ddb9c2410a52948703996198c</sys_scope>
+        <sys_update_name>sn_hr_core_template_007915401b702c108dcc755e034bcb5d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-25 18:31:21</sys_updated_on>
+        <table>sn_hr_core_task</table>
+        <template>short_description=AlertSSS: Assign Physical Badge^hr_task_type=hr_service^hr_service=a258e4841bfce8108dcc755e034bcb31^state=10^assigned_to=0a826bf03710200044e0bfc8bcbe5d7a^description=Please refer badge officer App^EQ</template>
+        <template_reference/>
+        <template_reference_field/>
+        <use_assignment_date>false</use_assignment_date>
+        <user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user>
+        <view/>
+    </sn_hr_core_template>
+</record_update>

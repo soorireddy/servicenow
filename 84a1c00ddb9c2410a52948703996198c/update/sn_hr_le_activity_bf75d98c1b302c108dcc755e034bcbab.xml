@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_hr_le_activity">
+    <sn_hr_le_activity action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_set display_value="Pre-hire">f201fa50db9432009aa2f4eabf961944</activity_set>
+        <activity_type>fulfiller</activity_type>
+        <approval_accept_option>anyone</approval_accept_option>
+        <approval_reject_option>resubmit</approval_reject_option>
+        <approver_groups/>
+        <approver_users/>
+        <approvers/>
+        <audience/>
+        <badge display_value="HR">6439a617c3b00300b599b4ad81d3ae57</badge>
+        <catalog_item/>
+        <cmdb_model/>
+        <content_availability_quantity/>
+        <content_availability_units/>
+        <description/>
+        <email_template/>
+        <flow/>
+        <from/>
+        <fulfiller_activity display_value="HR Service">4dfecd3f531322003585c3c606dc3420</fulfiller_activity>
+        <hr_criteria/>
+        <hr_service display_value="AlertSSSAddbadgeService">b4aa11801b702c108dcc755e034bcb99</hr_service>
+        <hr_template/>
+        <member_of/>
+        <missing_all_approvers>substitute</missing_all_approvers>
+        <missing_some_approvers>skip</missing_some_approvers>
+        <order_guide/>
+        <order_number/>
+        <owning_group display_value="HR Activity Writers" name="HR Activity Writers">0e5e43210b6322003be12da0d5673a71</owning_group>
+        <recipient_fields/>
+        <recipient_groups/>
+        <recipient_users/>
+        <sys_class_name>sn_hr_le_activity</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-25 16:22:53</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>bf75d98c1b302c108dcc755e034bcbab</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>SSSS Assign Badge</sys_name>
+        <sys_package display_value="BadgeOfficer" source="x_545192_badgeoffi">84a1c00ddb9c2410a52948703996198c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="BadgeOfficer">84a1c00ddb9c2410a52948703996198c</sys_scope>
+        <sys_update_name>sn_hr_le_activity_bf75d98c1b302c108dcc755e034bcbab</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-25 16:46:42</sys_updated_on>
+        <system_template/>
+        <title>SSSS Assign Badge</title>
+        <use_badge_on_hr_service>false</use_badge_on_hr_service>
+        <wait_for_generated_tasks_to_complete>false</wait_for_generated_tasks_to_complete>
+    </sn_hr_le_activity>
+</record_update>
