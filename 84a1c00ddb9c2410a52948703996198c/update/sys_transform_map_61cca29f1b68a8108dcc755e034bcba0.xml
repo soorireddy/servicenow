@@ -18,6 +18,11 @@
         gs.info('updating status');
         rec.update();
     }
+	//TODO:: based on feedback we need to enhance
+	// if source.u_alertprovisionstatus == true i.e., success close badge request
+	// badgestatus == active  to..
+	// badgestatus  == inactive  update
+	
 })(source, target, map, log, action === "update");]]></script>
         <source_table>x_545192_badgeoffi_user_badges_import_se</source_table>
         <sys_class_name>sys_transform_map</sys_class_name>
@@ -25,7 +30,7 @@
         <sys_created_on>2020-11-23 14:47:57</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>61cca29f1b68a8108dcc755e034bcba0</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>User Badges Import Set</sys_name>
         <sys_package display_value="BadgeOfficer" source="x_545192_badgeoffi">84a1c00ddb9c2410a52948703996198c</sys_package>
         <sys_policy/>
@@ -33,7 +38,7 @@
         <sys_scope display_value="BadgeOfficer">84a1c00ddb9c2410a52948703996198c</sys_scope>
         <sys_update_name>sys_transform_map_61cca29f1b68a8108dcc755e034bcba0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-23 15:27:07</sys_updated_on>
+        <sys_updated_on>2020-11-23 15:43:51</sys_updated_on>
         <target_table>x_545192_badgeoffi_userbadges</target_table>
     </sys_transform_map>
 </record_update>

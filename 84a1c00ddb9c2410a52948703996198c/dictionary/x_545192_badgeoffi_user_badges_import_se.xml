@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="sys_import_set_row" label="User Badges Import Set" max_length="40" name="x_545192_badgeoffi_user_badges_import_se" type="collection">
+    <element extends="sys_import_set_row" label="User Badges Import Set" max_length="40" name="x_545192_badgeoffi_user_badges_import_se" sizeclass="3" type="collection">
         <element attributes="edge_encryption_enabled=true,import_attribute_name=u_alertprovisionstatus" label="Alertprovisionstatus" max_length="40" name="u_alertprovisionstatus" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=u_attachment_id" label="Attachment ID" max_length="40" name="u_attachment_id" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=u_badgeid" label="Badgeid" max_length="40" name="u_badgeid" type="string"/>

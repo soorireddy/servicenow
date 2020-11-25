@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="System Web Services">18f23e670a0a0b2400c55b122be52373</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter/>
+        <hint>User customized web service</hint>
+        <homepage/>
+        <image>images/icons/web_services_mapped.gifx</image>
+        <link_type>DIRECT</link_type>
+        <map_page/>
+        <mobile_title>User Badges Import Set</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name/>
+        <order>1050</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query>v_ws_editor.do?sysparm_query=name=x_545192_badgeoffi_user_badges_import_se</query>
+        <report/>
+        <roles/>
+        <survey/>
+        <survey_overwrite>true</survey_overwrite>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-23 14:47:13</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path/>
+        <sys_id>cdcce2131ba8a8108dcc755e034bcb6e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>User Badges Import Set</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="BadgeOfficer" source="x_545192_badgeoffi">84a1c00ddb9c2410a52948703996198c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="BadgeOfficer">84a1c00ddb9c2410a52948703996198c</sys_scope>
+        <sys_update_name>sys_app_module_cdcce2131ba8a8108dcc755e034bcb6e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-23 14:47:13</sys_updated_on>
+        <timeline_page/>
+        <title>User Badges Import Set</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BadgeOfficer">84a1c00ddb9c2410a52948703996198c</application>
+        <file_path/>
+        <instance_id>2d30a3a4db4f5780cbf6d5b0cf961946</instance_id>
+        <instance_name>ven02572</instance_name>
+        <name>sys_app_module_cdcce2131ba8a8108dcc755e034bcb6e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="System Web Services">18f23e670a0a0b2400c55b122be52373</application><assessment/><content_page/><device_type/><filter/><hint>User customized web service</hint><homepage/><image>images/icons/web_services_mapped.gifx</image><link_type>DIRECT</link_type><map_page/><mobile_title>User Badges Import Set</mobile_title><mobile_view_name>Mobile</mobile_view_name><name/><order>1050</order><override_menu_roles>false</override_menu_roles><query>v_ws_editor.do?sysparm_query=name=x_545192_badgeoffi_user_badges_import_se</query><report/><roles/><survey/><survey_overwrite>true</survey_overwrite><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-11-23 14:47:13</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_domain_path/><sys_id>cdcce2131ba8a8108dcc755e034bcb6e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>User Badges Import Set</sys_name><sys_overrides/><sys_package display_value="BadgeOfficer" source="x_545192_badgeoffi">84a1c00ddb9c2410a52948703996198c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="BadgeOfficer">84a1c00ddb9c2410a52948703996198c</sys_scope><sys_update_name>sys_app_module_cdcce2131ba8a8108dcc755e034bcb6e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-11-23 14:47:13</sys_updated_on><timeline_page/><title>User Badges Import Set</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>1950566086</payload_hash>
+        <record_name>User Badges Import Set</record_name>
+        <reverted_from/>
+        <source>2a9a3803dbe8a810101fc082ba96197c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-23 14:47:14</sys_created_on>
+        <sys_id>01cce2131ba8a8108dcc755e034bcb72</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>175f592b5510000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-23 14:47:14</sys_updated_on>
+        <type>Module</type>
+        <update_guid>49cce213fda8a810ce97fca6bee4b171</update_guid>
+        <update_guid_history>49cce213fda8a810ce97fca6bee4b171:1950566086</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2020-11-23 07:35:30">ccd736971ba8a8108dcc755e034bcb71</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-23 15:35:30</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>8472f2a7cf784a1e96ff926cbdaf76e4</sys_id>
+        <sys_metadata>cdcce2131ba8a8108dcc755e034bcb6e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>User Badges Import Set</sys_name>
+        <sys_package display_value="BadgeOfficer" source="x_545192_badgeoffi">84a1c00ddb9c2410a52948703996198c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="BadgeOfficer">84a1c00ddb9c2410a52948703996198c</sys_scope>
+        <sys_scope_delete display_value="">05c42e24070c45278c8fe39e3aa15ca9</sys_scope_delete>
+        <sys_update_name>sys_app_module_cdcce2131ba8a8108dcc755e034bcb6e</sys_update_name>
+        <sys_update_version display_value="sys_app_module_cdcce2131ba8a8108dcc755e034bcb6e">01cce2131ba8a8108dcc755e034bcb72</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-23 15:35:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
